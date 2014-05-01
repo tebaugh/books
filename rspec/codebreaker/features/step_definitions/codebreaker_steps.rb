@@ -1,6 +1,6 @@
 class Output
   def messages
-    @messages ||= [ ]
+    @messages ||= []
   end
 
   def puts(message)
@@ -17,11 +17,10 @@ Given /^I am not yet playing$/ do
 end
 
 When(/^I start a new game$/) do
-  output = Output.new
   game = Codebreaker::Game.new(output)
   game.start 
 end
 
-Then(/^I should see "([^"]*)"$/) do |message|
+Then /^I should see "([^"]*)"$/ do |message|
   output.messages.should include(message)
 end
