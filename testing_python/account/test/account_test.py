@@ -16,7 +16,7 @@ class TestAccount(unittest.TestCase):
        mock_data_interface = Mock()
        mock_data_interface.get.side_effect=ConnectionError()
        account = Account(mock_data_interface)
-       self.assertEqual("Connection error occured.  Try Again.",
+       self.assertEqual("Connection error occured. Try Again.",
                          account.get_account(1))
 
 
