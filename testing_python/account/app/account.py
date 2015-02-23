@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import requests
+
 class ConnectionError(Exception):
     pass
 
@@ -13,4 +15,6 @@ class Account(object):
        except ConnectionError:
           result = "Connection error occured. Try Again."
           return result
-
+   
+    def get_current_balance(self, id_num):
+       return requests.get("http://some-account-uri/"+id_num)
