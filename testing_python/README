@@ -1,5 +1,12 @@
 Testing Python - Applying Unit Testing, TDD, BDD, and Acceptance Testing by David Sale.
 
+Setup:
+https://virtualenv.pypa.io/en/latest/installation.html
+http://virtualenvwrapper.readthedocs.org/en/latest/
+pip install nose
+
+
+
 Reference Links:
 
 http://learnpythonthehardway.org
