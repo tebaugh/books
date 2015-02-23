@@ -3,10 +3,14 @@ Testing Python - Applying Unit Testing, TDD, BDD, and Acceptance Testing by Davi
 Setup:
 https://virtualenv.pypa.io/en/latest/installation.html
 http://virtualenvwrapper.readthedocs.org/en/latest/
-pip install nose
-
-
+pip install nose - run tests
+pip install nose-cov - code coverage
+pip install rednose - coloring tests
+pip install pytest - another way to run tests
+pip install pytest-cov - code coverage with pytest
+pip install mock - install mock library
 
 Reference Links:
-
+https://docs.python.org/2/library/unittest.html
+https://docs.python.org/2/library/pdb.html
 http://learnpythonthehardway.org
