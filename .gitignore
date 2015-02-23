@@ -1,3 +1,4 @@
 TheWellGroundedRubyist/chapter_1/c2fin.rb~
 TheWellGroundedRubyist/chapter_1/temp.out
 *.pyc
+.coverage
