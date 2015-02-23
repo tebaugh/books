@@ -9,6 +9,8 @@ pip install rednose - coloring tests
 pip install pytest - another way to run tests
 pip install pytest-cov - code coverage with pytest
 pip install mock - install mock library
+pip install requests - requests library for calling REST services
+
 
 Reference Links:
 https://docs.python.org/2/library/unittest.html
